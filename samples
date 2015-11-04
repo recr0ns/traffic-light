@@ -1,3 +1,0 @@
-curl -i localhost:8090/observation/add -d "{ \"observation\": { \"color\": \"green\", \"numbers\": [\"1110111\", \"0011101\"] }, \"sequence\": \"313e78b4-82f4-11e5-a434-000c291b1d46\"}"
-curl -i localhost:8090/observation/add -d "{ \"observation\": { \"color\": \"green\", \"numbers\": [\"1110111\", \"0011101\"] }, \"sequence\": \"b839e67c-d637-4afc-9241-63943c4fea83\"}"
-curl -i localhost:8090/observation/add -d "{ \"observation\": { \"color\": \"red\" }, \"sequence\": \"b839e67c-d637-4afc-9241-63943c4fea83\"}"
