@@ -1,0 +1,2 @@
+-define(RED, <<"red">>).
+-define(GREEN, <<"green">>).

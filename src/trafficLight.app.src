@@ -1,0 +1,15 @@
+{application, trafficLight,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { trafficLight_app, []}},
+  {env, [
+    {app_port, 8090},
+    {db_file, <<"data.dat">>}
+  ]}
+ ]}.

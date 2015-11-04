@@ -1,0 +1,11 @@
+.eunit
+deps
+*.o
+*.beam
+*.plt
+erl_crash.dump
+ebin
+rel/trafficLight
+.concrete/DEV_MODE
+.rebar
+data.dat
